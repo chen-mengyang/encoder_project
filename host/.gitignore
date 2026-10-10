@@ -1,0 +1,26 @@
+# Qt / qmake build output
+build/
+moc/
+obj/
+ui/
+rcc/
+.qm/
+.qmake.stash
+Makefile*
+
+# Qt user-specific / generated
+*.pro.user*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.o
+*.d
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+*.swp
+*~
